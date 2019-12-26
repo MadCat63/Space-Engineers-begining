@@ -55,12 +55,12 @@ public sealed class Program : MyGridProgram
                     Log = !Log;
                     break;
                 }
-            case "Cross":
-                {
-                    Stop = true;
-                    FindAxis();
-                    break;
-                }
+            //case "Cross":
+            //    {
+            //        Stop = true;
+            //        FindAxis();
+            //        break;
+            //    }
             default:
                 break;
         }
